@@ -10,12 +10,11 @@ body {
 }
 .main {
   background: url(/images/bg-stars.svg);
-}
-.bg {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
 }
+
 .titulo {
   font-size: 1.4rem;
   letter-spacing: 5px;
@@ -144,7 +143,7 @@ svg:hover path {
     text-align: center;
   }
   .footer {
-    margin-top: 400px;
+    margin-top: 200px;
   }
   .footer .img img {
     width: 100%;
@@ -152,7 +151,7 @@ svg:hover path {
   }
   .footer .redes {
     position: absolute;
-    top: 920px;
+    top: 720px;
     left: 30%;
   }
 }
