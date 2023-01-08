@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+:root {
+  --font: "Red Hat Text", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: linear-gradient(180deg, #1f1d28 50%, #241e2c 83.21%);
+}
+.main {
+  background: url(/images/bg-stars.svg);
+}
+.bg {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+.titulo {
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+  margin-top: 150px;
+  color: #ffffff;
+}
+.horario {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-top: 140px;
+}
+.horario-valor {
+  display: grid;
+  width: 147px;
+  height: 140px;
+  background: #2c2c44;
+  color: #d44f72;
+  font-size: 5rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin-bottom: 12px;
+  box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.horario-valor::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 12px;
+  background: #1e1e2a;
+  border-radius: 12px 0px 0px 12px;
+  position: absolute;
+  top: calc(147px / 2 - 6px);
+  right: 0%;
+}
+.horario-valor::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 12px;
+  background: #1e1e2a;
+  border-radius: 0px 12px 12px 0px;
+  position: absolute;
+  top: calc(147px / 2 - 6px);
+}
+.div-horario {
+  position: relative;
+}
+.span {
+  color: #7c7b98;
+}
+.span::before {
+  content: "";
+  display: block;
+  width: 131px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.04);
+  position: absolute;
+  top: 71px;
+  left: 8px;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.footer .img img {
+  width: 100%;
+  height: 180px;
+  position: relative;
+}
+
+.footer .redes {
+  position: absolute;
+  top: 800px;
+  left: 45%;
+}
+
+.footer .redes a {
+  margin-left: 20px;
+}
+
+svg:hover path {
+  cursor: pointer;
+  fill: #d44f72;
+}

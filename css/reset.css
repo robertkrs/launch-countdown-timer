@@ -1,0 +1,14 @@
+body,
+main,
+h1,
+div,
+footer,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
