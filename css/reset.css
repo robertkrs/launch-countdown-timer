@@ -3,7 +3,8 @@ main,
 h1,
 div,
 footer,
-img {
+img,
+html {
   margin: 0;
   padding: 0;
 }
@@ -11,4 +12,7 @@ img {
 img {
   max-width: 100%;
   box-sizing: border-box;
+}
+html {
+  height: 100%;
 }
